@@ -1,0 +1,58 @@
+@import "fonts.css";
+body{
+    background-color: #050638;
+    color: azure;
+}
+header{
+    font-family: "pxlTitle";
+    text-align: center;
+}
+.redes{
+    padding-top: 100px;
+    text-align: center;
+}
+nav, article, footer, .redes{
+    font-family: "pxlText";
+}
+section{
+    margin: 20px 0;
+}
+nav{
+    text-align: center;
+    background-color: #8f0a27;
+}
+.card {
+    background-color: #0000008e;
+    border: 2px solid red;
+}
+.card-header{
+    font-family: "pxlTitle-card";
+    text-align: center;
+}
+header a.redes, a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+.bg{
+    background-color: #000000d2;
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.home{
+    background-image: url("../images/APLogo-20-20.png");
+}
+.title{
+    margin: 100px 0;
+}
+
+footer{
+    background-color: #0000008e;
+}
