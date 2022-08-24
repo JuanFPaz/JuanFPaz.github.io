@@ -21,8 +21,12 @@ nav{
     text-align: center;
     background-color: #8f0a27;
 }
-.card {
+.card{
     background-color: #0000008e;
+    border: 2px solid red;
+}
+.modal-content{
+    background-color: #050638;
     border: 2px solid red;
 }
 .card-header{
