@@ -72,6 +72,7 @@
             </div>
           </div>
           <div class="col-sm-8">
+            <!-- The Modal -->
             <div class="card">
               <div class="card-header">
                 <h3>Acerca de mi</h3>
@@ -87,9 +88,18 @@
               </div>
               <div class="card-body">
                 <ul>
-                  <li>Argentina Programa<p>asd</p></li>
-                  <li>Centro Universitario Vicente Lopez</li>
-                  <li>Colegio Julio Argentino Roca</li>
+                  <li>
+                    Argentina Programa - Ministerio de Desarrollo de la Nacion.
+                  </li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
+                  <li>
+                    Centro Universitario Vicente Lopez
+                  </li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
+                  <li>
+                    Colegio Julio Argentino Roca
+                  </li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                 </ul>
               </div>
             </div>
@@ -101,10 +111,15 @@
               <div class="card-body">
                 <ul>
                   <li>Pedidos Ya</li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                   <li>Banco Santander Rio</li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                   <li>BBQ TOWN COMIDA CHINA</li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                   <li>BAZAR VARIEDADES SR - VICENTE LÓPEZ</li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                   <li>HOYTS GENERAL CINEMA - DOT BAIRES</li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Ver más.</button>
                 </ul>
               </div>
             </div>
@@ -148,6 +163,25 @@
           </div>
         </div>
       </div>
+      <!--modal-->
+      <div class="container">
+        <div class="modal" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                 Modal body..
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
   </section>
   <footer>
@@ -167,5 +201,6 @@
   </footer>
   <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/modalscript.js"></script>
 </body>
 </html>
