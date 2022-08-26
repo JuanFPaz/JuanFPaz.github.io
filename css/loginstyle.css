@@ -1,0 +1,26 @@
+body,html{
+    height: 100%;
+}
+.bg{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    box-sizing: border-box;
+}
+.home
+{
+    background-image: url("../images/El\ roca.jpeg");
+}
+.login{
+    background-color: rgb(0, 110, 255);
+}
+@media(max-width: 768px){
+    .bg{
+        display: none;
+    }
+}
