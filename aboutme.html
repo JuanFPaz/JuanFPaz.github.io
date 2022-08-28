@@ -32,7 +32,7 @@
       </div>
     </div>
   </header>
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-md sticky-top">
     <div class="container">
       <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
         <img src="images/APLogo-20-20.png" alt="Argentina Programa" style="width:100px;">
@@ -120,28 +120,28 @@
               <div class="card-body">
                 <ul>
                   <li>Banco Santander Rio
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Santander">Ver mas</button>
                     <ul>
                       <li>Enero 2010 - Diciembre 2014</li>
                       <li>Titulo: Bachillerato</li>
                     </ul>
                   </li>
                   <li>BBQ TOWN COMIDA CHINA
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="BBQ">Ver mas</button>
                     <ul>
                       <li>Enero 2010 - Diciembre 2014</li>
                       <li>Titulo: Bachillerato</li>
                     </ul>
                   </li>
                   <li>BAZAR VARIEDADES SR - VICENTE LÓPEZ
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Bazar">Ver mas</button>
                     <ul>
                       <li>Enero 2010 - Diciembre 2014</li>
                       <li>Titulo: Bachillerato</li>
                     </ul>
                   </li>
                   <li>HOYTS GENERAL CINEMA - DOT BAIRES
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Hoyts">Ver mas</button>
                     <ul>
                       <li>Enero 2010 - Diciembre 2014</li>
                       <li>Titulo: Bachillerato</li>
@@ -153,7 +153,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col mt-3">
+          <div class="col-md mt-3">
             <div class="card">
               <div class="card-header">
                 <h3>Skills</h3>
@@ -197,19 +197,29 @@
         <div class="modal-dialog modal-dialog-centered modal-xl">
           <div class="modal-content">
             <div class="modal-header">             
-                <h1>Titulo Modal</h1>
+                <h1 class="title-modal">Titulo Modal</h1>
                 <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" id="closeModal">X</button>
             </div>
             <div class="modal-body">
               <div class="row">
-                <div class="col">                
+                <div class="col-md-5">                
                   <img class="image-modal img-thumbnail" src="" alt="logo">
                 </div>
-                <div class="col">                
+                <div class="col-md-7">                
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto mollitia alias ad quaerat tempora dolore atque dignissimos corporis, quia omnis similique saepe odit rem cumque quam eveniet fugiat temporibus?</p>
                 </div>
-                <div class="col">                
-                  <iframe class="gps-modal" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <h1>Ubicacion</h1>
+                  <iframe class="gps-modal" src="" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-7">
+                  <ul>
+                    <li>
+                      asd
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
