@@ -5,12 +5,8 @@
   <title>Juan F Paz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="css/fonts.css" rel="stylesheet"> 
   <link href="css/style.css" rel="stylesheet"> 
 </head>
@@ -20,9 +16,9 @@
       <div class="row">
         <div class="col">      
           <a href="index.html">
-            <img src="images/FonkyGhost.png" alt="FonkyBuu" style="width:100px;" class="rounded-pill">
+            <h1 class="logoIndex">JFP</h1>
+            <h6>Juan Paz</h6>
           </a>
-          <h1>Fonky Buu Page</h1>
         </div>
         <div class="col">      
           <div class="redes">
@@ -91,7 +87,7 @@
                 <ul>
                   <li>
                       Argentina Programa - M. de Desarrollo Productivo.
-                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="ArgProg">Ver mas</button>
                       <ul>
                         <li>Enero 2022 - Diciembre 2022</li>
                         <li>Titulo: Desarrollador Full Stack Jr</li>
@@ -99,7 +95,7 @@
                   </li>
                   <li>
                     Centro Universitario Vicente Lopez.
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="CenUni">Ver mas</button>
                     <ul>
                       <li>Enero 2018 - Diciembre 2018</li>
                       <li>Titulo: Tecnico en computacion</li>
@@ -107,7 +103,7 @@
                   </li>
                   <li>
                     Colegio Julio Argentino Roca.
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Roca">Ver mas</button>
                     <ul>
                       <li>Enero 2010 - Diciembre 2014</li>
                       <li>Titulo: Bachillerato</li>
@@ -194,22 +190,33 @@
           </div>
         </div>
       </div>
-      <!--modal-->
-      <div class="container">
-        <div class="modal" id="myModal">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">X</button>
-              </div>
-              <div class="modal-body">
-                 owo
+    </article>
+    <!-- modal -->
+    <div class="container-fluid">
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">             
+                <h1>Titulo Modal</h1>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" id="closeModal">X</button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">                
+                  <img class="image-modal img-thumbnail" src="" alt="logo">
+                </div>
+                <div class="col">                
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto mollitia alias ad quaerat tempora dolore atque dignissimos corporis, quia omnis similique saepe odit rem cumque quam eveniet fugiat temporibus?</p>
+                </div>
+                <div class="col">                
+                  <iframe class="gps-modal" src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </article>
+    </div>
   </section>
   <footer>
     <div class="container mt-3">
@@ -228,6 +235,6 @@
   </footer>
   <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="js/modalscript.js"></script>
+  <script src="js/modalscript.js" defer></script>
 </body>
 </html>

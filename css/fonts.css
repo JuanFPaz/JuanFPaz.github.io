@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "pxlTitle";
-    src: url("../Assets/fonts/font-title-arcade.ttf");
+    font-family: "titleFont";
+    src: url("../Assets/fonts/Viafont.ttf");
     font-style: normal;
     font-weight: normal;
 }
