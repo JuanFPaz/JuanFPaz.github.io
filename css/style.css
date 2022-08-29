@@ -9,25 +9,40 @@ header{
 header .logoIndex{
     font-family: "titleFont";
 }
-.redes{
-    padding: 28px 0 0 0;
-}
-header .redes, a:link, a:visited{
+header .subtitulo{
     font-family: "akiraFont";
+}
+header a:link{
     color: white;
     text-decoration: none;
 }
-header, a:hover{
+header a:visited{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
     color: #8f0a27;
+    text-decoration: none;
+}
+header .redes{
+    font-family: "akiraFont";
+    color: white;
+}
+.redes{
+    padding: 28px 0 0 0;
 }
 nav{
     font-family: "LemonMilk-Medium";
     text-align: center;
     background-color: #8f0a27;
 }
-.card{
-    background-color: #0000008e;
-    border: 2px solid  #8f0a27;
+nav a:link, nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #050638;
+    text-decoration: none;
 }
 .bg{
     background-color: #000000d2;
@@ -50,18 +65,28 @@ nav{
     font-style: italic;
     margin: 50px 0;
 }
+.index-body{
+    font-family: "KenyanKoffee-Regular";
+    font-size: 20px;
+}
+.card{
+    background-color: #0000008e;
+    border: 2px solid  #8f0a27;
+}
 .card-header{
-    font-family: "akiraFont";
+    font-family: "LemonMilk-Bold";
     text-align: center;
 }
 .card-body, .card-footer{
     font-family: "KenyanKoffee-Regular";
-    font-size: 30px;
+    font-size: 20px;
 }
-
+.card-footer{
+    text-align: center;
+}
 .modal-content{
     font-family: "KenyanKoffee-Regular";
-    font-size: 30px;
+    font-size: 20px;
     background-color: #050638;
     border: 2px solid  #8f0a27;
 }

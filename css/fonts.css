@@ -61,7 +61,11 @@
 @font-face {
     font-family: "KenyanKoffee-Regular";
     src: url("../Assets/fonts/kenyan\ coffee\ rg.ttf");
-    font-size: 30px;
+    font-style: normal;
+}
+@font-face {
+    font-family: "KenyanKoffee-Bold";
+    src: url("../Assets/fonts/kenyan\ coffee\ bd.ttf");
     font-style: normal;
     font-weight: normal;
 }
