@@ -48,8 +48,8 @@ function funcButtonFour(){
     title.textContent = "Banco Santander Río";
     img.setAttribute("src","../Assets/images/santander.png");
     gps.setAttribute("src","https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.9899622281854!2d-58.38055916431527!3d-34.60517679102835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccace45bf89f1%3A0x56a394a7168fba13!2sSuipacha%20268%2C%20C1008AAF%20CABA!5e0!3m2!1ses!2sar!4v1661726490560!5m2!1ses!2sar");
-    p[0].textContent = "En este trabajo realice la tarea de conseguir potenciales clientes para el Banco Santander Río, realizando llamadas telefónicas o recibiendo visitas de los posibles nuevos clientes.";
-    p[1].textContent = "Luego de una exhaustiva capacitación, pude cambiar mi puesto como técnico de las oficinas del Banco, ocupándome ahora del mantenimiento de las computadoras, los servidores, etc.";
+    p[0].textContent = "Oficinas del banco ubicadas en el centro porteño de la Ciudad de Buenos Aires.";
+    p[1].textContent = "En este trabajo mi función es encargarme de conseguir potenciales clientes para el Banco Santander Río, realizando llamadas telefónicas o recibiendo visitas de los posibles nuevos clientes.";
     direccion.textContent = "Dirección: Suipacha 268."
     localidad.textContent = "Localidad: San Nicolas, Capital Federal. Argentina."
 }
