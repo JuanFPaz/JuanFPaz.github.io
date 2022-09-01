@@ -94,3 +94,17 @@ footer{
     font-family: "LemonMilk-Medium";
     background-color: #0000008e;
 }
+.bg-card-header{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.img-redonda{
+    width: 200px;
+    height: 200px;
+    border:2px solid #8f0a27; 
+    border-radius: 150px;
+}
+.list-card{
+    list-style: none;
+}
