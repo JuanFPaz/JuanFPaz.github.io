@@ -84,9 +84,10 @@ nav a:hover{
     background-image: url("../images/banner.png");
 }
 .img-redonda{
-    width: 200px;
-    height: 200px;
-    border:2px solid #8f0a27; 
+    width: 150px;
+    height: 150px;
+    border:2px solid #8f0a27;
+    margin-top: 25px;
     border-radius: 150px;
 }
 .card-body, .card-footer{
