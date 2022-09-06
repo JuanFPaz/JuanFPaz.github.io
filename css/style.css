@@ -97,6 +97,17 @@ nav a:hover{
 .card-footer{
     text-align: center;
 }
+.no-padding{
+    padding: 0px 0px 0px 0px ;
+}
+
+ul.list-group li.list-group-item{
+    background-color: #00000000;
+    border-top: 2px solid #8f0a27;
+    border-radius: 0%;
+    font-family: "KenyanKoffee-Regular";
+    color: white;
+}
 .modal-content{
     font-family: "KenyanKoffee-Regular";
     font-size: 28px;
