@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "titleFont";
+    src: url("../assets/fonts/Viafont.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "akiraFont";
+    src: url("../assets/fonts/akira.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-Bold";
+    src: url("../assets/fonts/LEMONMILK-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-BoldItalic";
+    src: url("../assets/fonts/LEMONMILK-BoldItalic.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-Light";
+    src: url("../assets/fonts/LEMONMILK-Light.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-LightItalic";
+    src: url("../assets/fonts/LEMONMILK-LightItalic.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-Medium";
+    src: url("../assets/fonts/LEMONMILK-Medium.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-MediumItalic";
+    src: url("../assets/fonts/LEMONMILK-MediumItalic.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-Regular";
+    src: url("../assets/fonts/LEMONMILK-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LemonMilk-RegularItalic";
+    src: url("../assets/fonts/LEMONMILK-RegularItalic.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "KenyanKoffee-Regular";
+    src: url("../assets/fonts/kenyan-coffee-rg.ttf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "KenyanKoffee-Bold";
+    src: url("../assets/fonts/kenyan-coffee-bd.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
