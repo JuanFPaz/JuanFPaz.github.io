@@ -1,0 +1,44 @@
+div.card{
+    background-color: #0000008e;
+    border: 2px solid  #8f0a27;
+}
+.card-header{
+    font-family: "LemonMilk-Bold";
+    text-align: center;
+}
+.bg-card-header{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-image: url("../../../assets/images/banner.png");
+}
+.img-redonda{
+    width: 150px;
+    height: 150px;
+    border:2px solid #8f0a27;
+    margin-top: 25px;
+    border-radius: 200px;
+}
+.card-body, .card-footer{
+    font-family: "KenyanKoffee-Regular";
+    font-size: 20px;
+}
+.card-footer{
+    text-align: center;
+}
+ul.list-group li.list-group-item{
+    background-color: #00000000;
+    border-top: 2px solid #8f0a27;
+    border-radius: 0%;
+    font-family: "KenyanKoffee-Regular";
+    color: white;
+}
+.modal-content{
+    font-family: "KenyanKoffee-Regular";
+    font-size: 28px;
+    background-color: #050638;
+    border: 2px solid  #8f0a27;
+}
+.no-padding{
+    padding: 0px ;
+}

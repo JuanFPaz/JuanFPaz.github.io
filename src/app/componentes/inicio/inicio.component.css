@@ -1,0 +1,25 @@
+.bg{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    height: 75vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid  #8f0a27;
+}
+.home{
+    background-image: url("../../../assets/images/APLogo-20-20.png");
+}
+.title{
+    font-family: "akiraFont";
+    font-style: italic;
+    margin: 50px 0;
+}
+.index-body{
+    font-family: "KenyanKoffee-Regular";
+    font-size: 20px;
+}

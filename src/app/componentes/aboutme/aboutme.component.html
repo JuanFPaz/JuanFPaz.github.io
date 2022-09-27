@@ -5,7 +5,7 @@
           <div class="col-md-4 mt-3">
             <div class="card">
                 <div class="card-header bg-card-header">
-                    <img class="img-fluid img-redonda"  src="images/JP.jpg" alt="yo uwu">
+                    <img class="img-redonda"  src="../../assets/images/JP.jpg" alt="yo uwu">
                 </div>
                 <div class="card-body" style="text-align: center;">
                     <h3>Juan Paz, 27 años.</h3>
@@ -25,8 +25,8 @@
                     <li>Curriculum Vitae: Juan Paz
                         <ul>
                             <li>
-                                <a href="Assets/downloads/CV.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> Ver en navegador</a>
-                                <a href="Assets/downloads/CV.pdf" download="cv-JuanPaz-2022" class="btn btn-success btn-sm"><i class="fa-solid fa-download"></i> Descargar</a>
+                                <a href="../../../assets/downloads/CV.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> Ver en navegador</a>
+                                <a href="../../../assets/downloads/CV.pdf" download="cv-JuanPaz-2022" class="btn btn-success btn-sm"><i class="fa-solid fa-download"></i> Descargar</a>
                             </li>
                         </ul>
                     </li>
@@ -34,8 +34,8 @@
                         Certificado Argentina Programa - #SeProgramar (Primera Etapa)
                         <ul>
                             <li>
-                                <a href="Assets/downloads/certificado.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> Ver en navegador</a>
-                                <a href="Assets/downloads/certificado.pdf"  download="Certificado-JuanPaz-#SeProgramar" class="btn btn-success btn-sm"><i class="fa-solid fa-download"></i> Descargar</a>
+                                <a href="../../../assets/downloads/certificado.pdf" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> Ver en navegador</a>
+                                <a href="../../../assets/downloads/certificado.pdf"  download="Certificado-JuanPaz-#SeProgramar" class="btn btn-success btn-sm"><i class="fa-solid fa-download"></i> Descargar</a>
                             </li>
                         </ul>
                     </li>
@@ -61,21 +61,21 @@
               <div class="card-body no-padding">
                 <ul class="list-group">
                   <li class="list-group-item">Argentina Programa - M. de Desarrollo Productivo.
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="ArgProg">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonOne()">Ver mas</button>
                       <ul>
                         <li>Enero 2022 - Diciembre 2022</li>
                         <li>Titulo: Desarrollador Full Stack Jr</li>
                       </ul>
                   </li>
                   <li class="list-group-item">Centro Universitario Vicente López.
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="CenUni">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonTwo()">Ver mas</button>
                       <ul>
                         <li>Enero 2018 - Diciembre 2018</li>
                         <li>Titulo: Técnico en computación</li>
                       </ul>
                   </li>
                   <li class="list-group-item">Colegio Julio Argentino Roca.
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Roca">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonThree()">Ver mas</button>
                       <ul>
                         <li>Enero 2010 - Diciembre 2014</li>
                         <li>Titulo: Bachillerato</li>
@@ -92,28 +92,28 @@
               <div class="card-body no-padding">
                 <ul class="list-group">
                   <li class="list-group-item">Banco Santander Río
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Santander">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonFour()">Ver mas</button>
                     <ul>
                       <li>Enero 2017 - Actualidad</li>
                       <li>Puesto/Sector: Ejecutivo de cuentas</li>
                     </ul>
                   </li>
                   <li class="list-group-item">BBQ Town Comida China - Coreana
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="BBQ">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonFive()">Ver mas</button>
                       <ul>
                         <li>Julio 2016 - Julio 2017</li>
                         <li>Puesto/Sector: Cocina</li>
                       </ul>
                   </li>
                   <li class="list-group-item">Bazar Variedades "Samuga" SRL
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Bazar">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonSix()">Ver mas</button>
                       <ul>
                         <li>Agosto 2015 - Junio 2016</li>
                         <li>Puesto/Sector: Repositor - Atención al publico</li>
                       </ul>
                   </li>
                   <li class="list-group-item">Cinemark Hoyts - Dot Baires
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" id="Hoyts">Ver mas</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" (click)="buttonSeven()">Ver mas</button>
                       <ul>
                         <li>Diciembre 2014 - Agosto 2015</li>
                         <li>Puesto/Sector: Salas</li>
@@ -129,7 +129,7 @@
     <article>
       <div class="container">
         <div class="row">
-          <div class="col-md mt-3">
+          <div class="col-md mt-3 mb-3">
             <div class="card">
               <div class="card-header">
                 <h3>Skills</h3>
@@ -181,31 +181,31 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
             <div class="modal-header">             
-                <h1 class="title-modal">Titulo Modal</h1>
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" id="closeModal">X</button>
+                <h1 class="title-modal">{{titulomodal}}</h1>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" id="closeModal" (click)="buttonClose()">X</button>
             </div>
             <div class="modal-body">
               <div class="row">
-                <div class="col-md-5">                
-                  <img class="image-modal" style="border:4px solid #8f0a27; border-radius: 2%;"src="" width="100%" height="300" alt="logo">
+                <div class="col-md-5">
+                  <img class="image-modal" style="border:4px solid #8f0a27; border-radius: 2%;"src="{{imgmodal}}" width="100%" height="300" alt="{{imgAltModal}}">
                 </div>
                 <div class="col-md-7">                
-                  <p></p>
-                  <p></p>
+                  <p>{{parrafo1}}</p>
+                  <p>{{parrafo2}}</p>
                 </div>
               </div>
               <div class="row mt-5">
                 <div class="col-md-5">
                   <h3><i class="fa-solid fa-location-dot" style="color: #8f0a27;"></i> Ubicación</h3>
-                  <iframe class="gps-modal" width="100%" height="300" style="border:4px solid #8f0a27; border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe [src]="sanitizer.bypassSecurityTrustResourceUrl(gpsmodal)" class="gps-modal" width="100%" height="300" style="border:4px solid #8f0a27; border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-md-7 mt-5">
                   <ul>
                     <li class="direccion">
-                      Dirección:
+                      Dirección: {{direccionmodal}}
                     </li>
                     <li class="localidad">
-                      Localidad:
+                      Localidad: {{localidadmodal}}
                     </li>
                   </ul>
                 </div>
