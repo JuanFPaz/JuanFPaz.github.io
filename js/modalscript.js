@@ -63,7 +63,7 @@ function funcButtonFive(){
     localidad.textContent = "Localidad: Belgrano, Capital Federal. Argentina."
 }
 function funcButtonSix(){
-    title.textContent = "Bazar Variedades \"Samuga\" SRL";
+    title.textContent = "Bazar Variedades 'Samuga' SRL";
     img.setAttribute("src","../Assets/images/bazar.PNG");
     gps.setAttribute("src","https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.3383799897958!2d-58.478657741728796!3d-34.53641658560576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ba604350e7%3A0xc04b29c18b738cf6!2sAv.%20Maip%C3%BA%20202%2C%20B1602AAP%20Vicente%20L%C3%B3pez%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1661726332210!5m2!1ses!2sar");
     p[0].textContent = "Popular bazar de la zona de Vicente López – Con una trayectoria de más de 20 años en la zona – que cuenta con dos locales sobre la Av. Maipú.";

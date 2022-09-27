@@ -5,6 +5,7 @@ body{
 }
 header{
     text-align: center;
+    background-color: #050638;
 }
 header .logoIndex{
     font-family: "titleFont";
@@ -41,11 +42,11 @@ nav a:link, nav a:visited{
     text-decoration: none;
 }
 nav a:hover{
-    color: #050638;
+    color: #2427cf;
     text-decoration: none;
 }
 .bg{
-    background-color: #000000d2;
+    background-color: #000000;
     text-align: center;
     padding: 10px;
     height: 100vh;
@@ -116,5 +117,5 @@ ul.list-group li.list-group-item{
 }
 footer{
     font-family: "LemonMilk-Medium";
-    background-color: #0000008e;
+    background-color: #050638;
 }
